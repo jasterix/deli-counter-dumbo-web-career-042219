@@ -21,7 +21,8 @@ end
 
 def now_serving(katz_deli)
   if katz_deli == 0
-    "There is nobody waiting to be served!"
+    empty = "There is nobody waiting to be served!"
+    empty
   else 
 	 puts "Currently serving " + katz_deli[0] +"."
   end
