@@ -1,5 +1,5 @@
 # Write your code here.
-
+require 'pry'
 def line(katz_deli)
   phrase = "The line is currently:"
   if katz_deli.length > 0 
@@ -22,6 +22,7 @@ end
 def now_serving(katz_deli)
   if katz_deli == 0
     puts "There is nobody waiting to be served!"
+    binding.pry
   else 
 	 puts "Currently serving " + katz_deli[0] +"."
   end
